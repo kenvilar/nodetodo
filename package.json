@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/kenvilar/simple-web-server#readme",
   "dependencies": {
+    "express": "^4.16.2",
     "moment": "^2.20.1"
   },
   "devDependencies": {
