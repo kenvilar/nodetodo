@@ -1,19 +1,19 @@
-var http = require('http');
-var fs = require('fs');
+var express = require('express');
+var app = express();
 
-http.createServer(function (req, res) {
-	if (req.url === '/') {
-		res.writeHead(200, {'Content-Type': 'text/html'});
-		fs.createReadStream(__dirname + '/index.html').pipe(res);
-	} else if (req.url === '/api') {
-		res.writeHead(200, {'Content-Type': 'application/json'});
-		var obj = {
-			firstname: 'Ken',
-			lastname: 'Vilar'
-		};
-		res.end(JSON.stringify(obj));
-	} else {
-		res.writeHead(404);
-		res.end();
-	}
-}).listen(1337, '127.0.0.1');
+//env port
+var port = process.env.PORT || 3000;
+
+app.get('/', function (req, res) {
+	res.send('<html><head></head><body><h1>RESPONDING...</h1></body></html>');
+});
+
+app.get('/api', function (req, res) {
+	var obj = {
+		firstname: 'Ken',
+		lastname: 'Vilar'
+	};
+	res.send(obj);
+});
+
+app.listen(port);
