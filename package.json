@@ -22,5 +22,8 @@
   "homepage": "https://github.com/kenvilar/simple-web-server#readme",
   "dependencies": {
     "moment": "^2.20.1"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
   }
 }
