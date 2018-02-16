@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/kenvilar/simple-web-server/issues"
   },
-  "homepage": "https://github.com/kenvilar/simple-web-server#readme"
+  "homepage": "https://github.com/kenvilar/simple-web-server#readme",
+  "dependencies": {
+    "moment": "^2.20.1"
+  }
 }
