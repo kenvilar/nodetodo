@@ -29,6 +29,18 @@ app.get('/api', function (req, res) {
 	res.send(obj);
 });
 
+app.get('/api/person/:id', urlencodedParser, function (req, res) {
+	//get data
+});
+
+app.post('/api/person', urlencodedParser, function (req, res) {
+	//save
+});
+
+app.delete('/api/person/:id', function (req, res) {
+	//delete
+});
+
 app.get('/person/:id', function (req, res) {
 	res.render('person', {
 		ID: req.params.id
