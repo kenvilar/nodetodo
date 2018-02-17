@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Simple Web Server</title>
 	<link rel="stylesheet" href="/assets/style.css">
+	<script src="http://code.jquery.com/jquery-3.3.1.min.js"
+	        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -19,5 +21,15 @@
 	<input type="submit" name="submit" value="SUBMIT">
 </form>
 
+<script>
+	var obj = {firstname: 'Ken', lastname: 'Vilar'};
+	$.ajax({
+		type: 'POST',
+		url: '/person-json',
+		data: JSON.stringify(obj),
+		dataType: 'json',
+		contentType: 'application/json'
+	});
+</script>
 </body>
 </html>
