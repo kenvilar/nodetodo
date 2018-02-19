@@ -1,5 +1,6 @@
 # User-specific stuff:
 config/config.js
+config/config-mongodb.js
 package-lock.json
 .idea/
 .idea/**/workspace.xml
