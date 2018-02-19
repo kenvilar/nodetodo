@@ -1,4 +1,5 @@
 # User-specific stuff:
+config/config.js
 package-lock.json
 .idea/
 .idea/**/workspace.xml
