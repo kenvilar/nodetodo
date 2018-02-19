@@ -24,7 +24,8 @@
     "body-parser": "^1.18.2",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
-    "moment": "^2.20.1"
+    "moment": "^2.20.1",
+    "mysql": "^2.15.0"
   },
   "devDependencies": {
     "jasmine-node": "^1.14.5",
