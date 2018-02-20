@@ -7,6 +7,7 @@ var config = require('./config/config-mongodb');
 var mongoose = require('mongoose');
 
 //Mongoose
+/*
 var Schema = mongoose.Schema;
 
 var personSchema = new Schema({
@@ -41,11 +42,13 @@ blackpanther.save(function (err) {
 
 	console.log('Person Saved!');
 });
+*/
 
 //env port
 var port = process.env.PORT || 3000;
 
 app.use('/assets', express.static(__dirname + '/public'));
+app.use('/bower_components', express.static(__dirname + '/bower_components'));
 
 app.set('view engine', 'ejs');
 
@@ -63,11 +66,11 @@ app.use('/', function (req, res, next) {
 	// 	}
 	// );
 
-	Person.find({}, function (err, persons) {
+	/*Person.find({}, function (err, persons) {
 		if (err) throw err;
 
 		console.log(persons);
-	});
+	});*/
 
 	next(); //after using this middleware then proceed to the next middlware
 });
