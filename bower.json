@@ -1,0 +1,22 @@
+{
+  "name": "simple-web-server",
+  "description": "Simple Web Server",
+  "main": "index.js",
+  "authors": [
+    "Ken Vilar"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "simple-web-server",
+    "nodejs"
+  ],
+  "homepage": "https://github.com/kenvilar/simple-web-server",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
