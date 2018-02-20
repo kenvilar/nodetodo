@@ -1,4 +1,3 @@
-# simple-web-server
-NodeJS
+# nodetodo
 
-* Ceate files under the config folder with a name config.js and config-mongodb.js
+TODO app using MEAN STACK majority with NodeJS
