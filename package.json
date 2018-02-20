@@ -1,0 +1,25 @@
+{
+  "name": "nodetodo",
+  "version": "1.0.0",
+  "description": "TODO app using MEAN STACK majority with NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenvilar/nodetodo.git"
+  },
+  "author": "Ken Vilar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenvilar/nodetodo/issues"
+  },
+  "homepage": "https://github.com/kenvilar/nodetodo#readme",
+  "devDependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.6"
+  }
+}
