@@ -1,7 +1,7 @@
 {
-  "uname": "",                  //username
-  "pw": "",                     //password
-  "hostname": "",               //database hostname
-  "port": "",                   //database port
-  "name": ""                    //database name
+  "uname": "",
+  "pw": "",
+  "hostname": "",
+  "port": "",
+  "name": ""
 }
