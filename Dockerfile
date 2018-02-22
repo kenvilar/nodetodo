@@ -1,4 +1,5 @@
 FROM node:latest
+MAINTAINER Ken Vilar <kenvilar@gmail.com>
 
 WORKDIR /var/www/app/
 
