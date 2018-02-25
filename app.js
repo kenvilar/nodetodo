@@ -1,9 +1,9 @@
-var express = require('express');
+const express = require('express');
 var app = express();
-var mongoose = require('mongoose');
-var config = require('./config/config');
-var setupController = require('./controllers/setupController');
-var apiController = require('./controllers/apiController');
+const mongoose = require('mongoose');
+const config = require('./config/config');
+const setupController = require('./controllers/setupController');
+const apiController = require('./controllers/apiController');
 
 var port = process.env.PORT || 3000;
 
